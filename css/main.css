@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+
+#background{
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#menu{
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    position: absolute;
+}
+
+#link_faq{
+    bottom: 15px;
+    right: 110px;
+}
+
+#link_signup{
+    bottom: 15px;
+    right: 200px;
+}
+
+.link:hover{
+    color: white;
+}
+
+#opacity{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#animation_area{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+#intro_area{
+    width: 52%;
+    height: 80%;
+    margin: 4% 7% 6% 6%;
+    float: right;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3); 
+}   
+
+h1{
+    padding-left: 1%;
+}
+
+#background2{
+    width: 92%;
+    background-image: url('../img/background3.png');
+    background-size: cover;
+    padding: 4%;
+    font-size: 80px;
+    text-align: center;
+}
+
+#crop_pick{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 1%;
+    position: relative;
+    animation: pick-fall 2s 1s cubic-bezier(1, .015, .295, 1.225) infinite alternate; 
+}
+
+#crop_text{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 1%;
+    position: relative;
+    animation: text-fall 2s 1s cubic-bezier(1, .015, .295, 1.225) infinite alternate;
+}
+
+@keyframes pick-fall{
+    0%{
+        top: 0;
+    }
+
+    50%{
+        top: 200px;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+@keyframes text-fall{
+     0%{
+        top: 0;
+    }
+
+    50%{
+        top: 200px;
+    }
+
+    100%{
+        top: 200px;
+    }
+}
+
+@media screen and(max-width: 1200px){
+	.a1 { }
+}
+
+div.a2 {
+	margin:3% 5%; float: left;
+}
+        
+p {
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
+        
+body {
+	background-image: url("../img/fqttl.PNG");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+#footer{
+    background: #7A7477;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#slogan{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    height: 2000px;
+    margin-top: 4%;
+}
+
+#download{
+    background-image: url('../img/background5.png');
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#btn_download{
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+#btn_download:hover{
+    background-color: #99bffc;
+}
